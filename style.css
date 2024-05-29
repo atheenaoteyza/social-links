@@ -1,0 +1,101 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(225, 44%, 96%);
+}
+.attribution a {
+  color: hsl(225, 44%, 96%);
+}
+
+@font-face {
+  font-family: interFont;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: boldFont;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --darkGrey: hsl(0, 0%, 12%);
+  --offBlack: hsl(0, 0%, 8%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  font-family: interFont, sans-serif;
+  font-size: 14px;
+  background-color: var(--offBlack);
+  text-align: center;
+}
+
+h1 {
+  font-family: boldFont;
+  font-size: 24px;
+  color: var(--white);
+  text-align: center;
+  padding: 14px 0 7px 0;
+}
+
+h2 {
+  font-family: boldFont;
+  color: var(--green);
+}
+
+p {
+  color: var(--white);
+  opacity: 60%;
+  padding: 14px;
+}
+
+.nav-list ul a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: boldFont;
+  color: var(--white);
+}
+
+ul {
+  margin: 14px 0;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: var(--grey);
+}
+
+.container {
+  background-color: var(--darkGrey);
+  width: 380px;
+  margin: 5% auto;
+  border-radius: 10px;
+}
+
+a {
+  background-color: var(--grey);
+}
+
+.header {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 80%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  border-radius: 100px;
+  margin-top: 14px;
+}
